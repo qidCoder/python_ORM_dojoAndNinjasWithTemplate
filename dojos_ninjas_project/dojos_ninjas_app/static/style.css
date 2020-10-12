@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* border: 1px dashed hotpink; */
+}
+
+#forms{
+    display: flex;
+}
+
+#forms h1{
+    margin: 0 auto;
+}
+
+.add_form{
+    display: flex;
+    width: 310px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.add_form div{
+    display: flex;
+    justify-content: space-between;
+    width: 285px;
+    padding: 4px;
+}
+
+h1{
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    margin: 13px auto;
+    box-shadow: 4px 3px black;
+    padding: 4px 10px;
+}
+
+#all_dojos{
+    width: 500px;
+    margin: 0 auto;
+}
+
+ul{
+    font-weight: bold;
+    margin: 4px;
+}
+
+li{
+    padding-left: 30px;
+    margin: 4px;
+}
+
+input, select{
+    height: 30px;
+    border: 2px solid black;
+    width: 160px;
+}
+
+
+
+
